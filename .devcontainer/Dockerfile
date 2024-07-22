@@ -11,7 +11,8 @@ RUN apk update && apk add --no-cache \
     git \
     openssh \
     && npm install -g npm \
-    && npm install -g pnpm
+    && npm install -g pnpm 
+
 
 ENV ZSH_THEME starship
 
